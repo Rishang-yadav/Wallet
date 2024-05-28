@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cmdcode/crypto-utils": "^2.4.6",
+    "@cmdcode/tapscript": "^1.4.6",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/lab": "^5.0.0-alpha.170",
@@ -16,8 +18,14 @@
     "@mui/x-date-pickers": "^7.2.0",
     "@react-spring/web": "^9.7.3",
     "@reduxjs/toolkit": "^1.9.3",
+    "axios": "^1.7.2",
     "bitcoin-wallet-adapter": "^1.6.1",
     "copy-to-clipboard": "^3.3.3",
+    "dotenv": "^16.4.5",
+    "formidable": "^3.5.1",
+    "mime-types": "^2.1.35",
+    "mongoose": "^8.4.0",
+    "multer": "^1.4.5-lts.1",
     "next": "14.2.1",
     "react": "^18",
     "react-dom": "^18",
@@ -26,10 +34,13 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.23.1",
     "react-slick": "^0.30.2",
-    "redux-thunk": "^2.4.2"
-   
+    "redux-thunk": "^2.4.2",
+    "urlsearchparams": "^0.1.1",
+    "uuid": "^9.0.1",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
+    "@types/multer": "^1.4.11",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

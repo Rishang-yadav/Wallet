@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        accent_dark: "#3d0263",
+        bwa_light_gray: "#84848a", // A bit lighter to enhance contrast
+        bwa_black: "#0c0d0c"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
